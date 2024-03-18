@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "autentications",
+  "info": {
+    "singularName": "autentication",
+    "pluralName": "autentications",
+    "displayName": "Autentications",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_telegram": {
+      "type": "string"
+    },
+    "time": {
+      "type": "biginteger"
+    },
+    "chat_id": {
+      "type": "biginteger"
+    }
+  }
+}
